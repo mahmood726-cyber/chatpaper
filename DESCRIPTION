@@ -1,0 +1,29 @@
+Package: chatpaper
+Type: Package
+Title: Comparative Analysis of MA4 Stability vs HKSJ Correction
+Version: 1.0.0
+Authors@R: c(
+    person(
+      "Mahmood", "Arai",
+      email = "mahmood@example.com",
+      role = c("aut")
+    ),
+    person(
+      "Gemini", "CLI",
+      role = c("cre")
+    )
+  )
+Description: A research project and R package evaluating the relationship 
+    between the MA4 R-index (analytic stability) and the 
+    Hartung-Knapp-Sidik-Jonkman (HKSJ) adjustment in meta-analysis.
+    The study utilizes 77 standardized datasets from multiple R packages 
+    to validate the findings.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    metafor,
+    dplyr
+Suggests: 
+    testthat
+RoxygenNote: 7.3.2
